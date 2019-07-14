@@ -58,6 +58,69 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>ChineseServlet</servlet-name>
+        <servlet-class>ServletDemo.ChineseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChineseServlet</servlet-name>
+        <url-pattern>/Chinese</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RefreshServlet</servlet-name>
+        <servlet-class>ServletDemo.RefreshServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RefreshServlet</servlet-name>
+        <url-pattern>/Refresh</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>ServletDemo.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RequestLineServlet</servlet-name>
+        <servlet-class>ServletDemo.RequestLineServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestLineServlet</servlet-name>
+        <url-pattern>/request</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RequestHeadersServlet</servlet-name>
+        <servlet-class>ServletDemo.RequestHeadersServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestHeadersServlet</servlet-name>
+        <url-pattern>/headers</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DownManagerServlet</servlet-name>
+        <servlet-class>ServletDemo.DownManagerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DownManagerServlet</servlet-name>
+        <url-pattern>/download</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RequestParamsServlet</servlet-name>
+        <servlet-class>ServletDemo.RequestParamsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestParamsServlet</servlet-name>
+        <url-pattern>/params</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>ServletConfigTest</servlet-name>
         <servlet-class>ServletDemo.ServletConfigTest</servlet-class>
         <init-param>
@@ -86,5 +149,17 @@
         <servlet-name>ServletContextTest1</servlet-name>
         <url-pattern>/Test2</url-pattern>
     </servlet-mapping>
-
+    
+    <!--缺省Servlet-->
+ <!--<servlet>-->
+     <!--<servlet-name>default</servlet-name>-->
+     <!--<servlet-class>-->
+         <!--org.apache.catalina.servlet.DefaultServlet-->
+     <!--</servlet-class>-->
+     <!--<load-on-startup>1</load-on-startup>-->
+ <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>default</servlet-name>-->
+        <!--<url-pattern>/abc</url-pattern>-->
+    <!--</servlet-mapping>-->
 </web-app>
