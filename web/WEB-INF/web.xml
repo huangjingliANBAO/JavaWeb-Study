@@ -121,6 +121,51 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>RequestForwardServlet</servlet-name>
+        <servlet-class>ServletDemo2.RequestForwardServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestForwardServlet</servlet-name>
+        <url-pattern>/RequestForwardServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ResultServlet</servlet-name>
+        <servlet-class>ServletDemo2.ResultServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResultServlet</servlet-name>
+        <url-pattern>/ResultServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>IncludingServlet</servlet-name>
+        <servlet-class>ServletDemo2.IncludingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IncludingServlet</servlet-name>
+        <url-pattern>/IncludingServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>IncludeServlet</servlet-name>
+        <servlet-class>ServletDemo2.IncludeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IncludeServlet</servlet-name>
+        <url-pattern>/IncludeServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>LastAccessServlet</servlet-name>
+    <servlet-class>ServletDemo2.LastAccessServlet</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>LastAccessServlet</servlet-name>
+        <url-pattern>/LastAccessServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>ServletConfigTest</servlet-name>
         <servlet-class>ServletDemo.ServletConfigTest</servlet-class>
         <init-param>
