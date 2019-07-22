@@ -233,6 +233,17 @@
     </servlet-mapping>
 
     <servlet>
+        <description></description>
+        <display-name>CheckServlet</display-name>
+        <servlet-name>CheckServlet</servlet-name>
+        <servlet-class>UserLogin.CheckServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckServlet</servlet-name>
+        <url-pattern>/CheckServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>ServletConfigTest</servlet-name>
         <servlet-class>ServletDemo.ServletConfigTest</servlet-class>
         <init-param>
