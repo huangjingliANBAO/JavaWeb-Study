@@ -8,6 +8,7 @@
         </descriptors>
         <webroots>
           <root url="file://$MODULE_DIR$/web" relative="/" />
+          <root url="file://$MODULE_DIR$/src/jsp" relative="/" />
         </webroots>
         <sourceRoots>
           <root url="file://$MODULE_DIR$/src" />
@@ -36,5 +37,7 @@
         <jarDirectory url="file://$MODULE_DIR$/web/WEB-INF/lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="commons-beanutils-1.9.3" level="project" />
+    <orderEntry type="library" name="jstl" level="project" />
   </component>
 </module>
