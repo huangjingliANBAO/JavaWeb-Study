@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-<form action="${pageContext.request.contextPath}/param.jsp">
+<form action="${pageContext.request.contextPath}/../src/main/webapp/jsp/param.jsp">
     num1:<input type="text" name="num1"><br>
     num2:<input type="text" name="num"><br>
     num3:<input type="text" name="num"><br>

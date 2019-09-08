@@ -20,7 +20,7 @@
 <br/>
 <c:choose>
     <c:when test="${sessionScope.user==null}">
-        <a href="${pageContext.request.contextPath}/login.jsp">用户登录</a>
+        <a href="${pageContext.request.contextPath}/../src/main/webapp/jsp/login.jsp">用户登录</a>
     </c:when>
     <c:otherwise>
         欢迎你，${sessionScope.user.username}!
